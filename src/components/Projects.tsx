@@ -13,12 +13,12 @@ const Projects = () => {
       live: '#'
     },
     {
-      title: 'Task Management App',
+      title: 'Pecha.ai',
       description: 'A collaborative project management tool built with Next.js and PostgreSQL. Real-time updates, team collaboration, and advanced filtering.',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
-      tags: ['Next.js', 'PostgreSQL', 'WebSocket', 'Tailwind'],
-      github: '#',
-      live: '#'
+      tags: ['Javascript', 'React', 'Python', 'Django', 'PostgreSQL', 'MongoDB', 'Google Cloud', 'Docker', 'render'],
+      github: 'https://github.com/OpenPecha/Pecha.org',
+      live: 'https://pecha.ai/texts'
     },
     {
       title: 'Social Media Dashboard',
