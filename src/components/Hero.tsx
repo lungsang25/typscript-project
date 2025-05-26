@@ -91,7 +91,7 @@ const Hero = () => {
 
       {/* Side Contact Panel */}
       {showContact && (
-        <div className="fixed inset-y-0 right-0 w-full max-w-md bg-slate-800/95 backdrop-blur-sm z-50 transform transition-transform duration-300 shadow-xl border-l border-slate-700">
+        <div className="fixed right-0 top-1/2 -translate-y-1/2 w-full max-w-md bg-slate-800/95 backdrop-blur-sm z-50 transform transition-transform duration-300 shadow-xl border border-slate-700 rounded-l-2xl max-h-[80vh] overflow-y-auto">
           <div className="p-6 h-full overflow-y-auto">
             <div className="flex justify-between items-center mb-6">
               <h3 className="text-2xl font-bold text-white">Get In Touch</h3>
@@ -110,7 +110,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Email</p>
-                  <p className="text-gray-400">lungsang@example.com</p>
+                  <p className="text-gray-400">lungsang2025@gmail.com</p>
                 </div>
               </div>
 
@@ -120,7 +120,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Phone</p>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-400">+91 8882333181</p>
                 </div>
               </div>
 
@@ -130,7 +130,7 @@ const Hero = () => {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Location</p>
-                  <p className="text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-400">Dharamshala, India</p>
                 </div>
               </div>
             </div>
