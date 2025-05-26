@@ -12,7 +12,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Alex Developer
+              Lungsang Developer
             </h3>
             <p className="text-gray-400 leading-relaxed">
               Passionate full-stack developer creating amazing digital experiences with modern technologies.
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="border-t border-slate-700/50 mt-12 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center space-x-2">
-            <span>© {currentYear} Alex Developer. Made with</span>
+            <span>© {currentYear} Lungsang Developer. Made with</span>
             <Heart className="text-red-500 fill-current" size={16} />
             <span>and lots of coffee.</span>
           </p>
