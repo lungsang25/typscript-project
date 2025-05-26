@@ -11,8 +11,8 @@ const About = () => {
   ];
 
   const technologies = [
-    'React', 'Node.js', 'TypeScript', 'Python', 'PostgreSQL', 'MongoDB',
-    'AWS', 'Docker', 'Kubernetes', 'Next.js', 'Express', 'GraphQL'
+    'Javascript', 'Python', 'TypeScript', 'Django', 'Node.js','PostgreSQL', 'MongoDB',
+    'AWS', 'Docker', 'render', 'vercel', 'GraphQL'
   ];
 
   return (
@@ -23,7 +23,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            I'm a passionate full-stack developer with 5+ years of experience building scalable web applications 
+            I'm a passionate full-stack developer with 4+ years of experience building scalable web applications 
             and mobile solutions. I love turning complex problems into simple, beautiful designs.
           </p>
         </div>
@@ -70,10 +70,10 @@ const About = () => {
             <div className="bg-slate-700/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-600/50">
               <h3 className="text-2xl font-bold text-white mb-4">Quick Facts</h3>
               <div className="space-y-3 text-gray-300">
-                <p>🎓 Computer Science Graduate</p>
-                <p>💼 5+ Years Professional Experience</p>
+                <p>🎓 Btech in Computer Science</p>
+                <p>💼 4+ Years Professional Experience</p>
                 <p>🌍 Remote Work Enthusiast</p>
-                <p>☕ Coffee Addict & Problem Solver</p>
+                <p>☕ Coffee Latte Lover & Problem Solver</p>
               </div>
             </div>
           </div>
