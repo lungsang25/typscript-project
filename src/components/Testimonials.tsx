@@ -31,7 +31,7 @@ const Testimonials = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Client <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Testimonials</span>
+            Client <span className="bg-gradient-to-r from-[#40E0D0] to-[#40E0D0] bg-clip-text text-transparent">Testimonials</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Don't just take my word for it. Here's what my clients have to say about working with me.
@@ -42,7 +42,7 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50 hover:border-purple-500/30 transition-all duration-300 hover:transform hover:scale-105"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/50 hover:border-[#40E0D0]/30 transition-all duration-300 hover:transform hover:scale-105"
             >
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
@@ -51,7 +51,9 @@ const Testimonials = () => {
               </div>
               
               <div className="relative mb-6">
-                <Quote className="absolute -top-2 -left-2 text-purple-400/30" size={24} />
+                <div className="absolute -top-4 -left-3 text-[#40E0D0] opacity-50">
+                  <Quote size={40} />
+                </div>
                 <p className="text-gray-300 leading-relaxed pl-6">
                   "{testimonial.content}"
                 </p>
@@ -61,10 +63,10 @@ const Testimonials = () => {
                 <img
                   src={testimonial.avatar}
                   alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-purple-400/30"
+                  className="w-12 h-12 rounded-full object-cover mr-4 border-2 border-[#40E0D0]"
                 />
                 <div>
-                  <h4 className="text-white font-semibold">{testimonial.name}</h4>
+                  <h4 className="text-[#40E0D0] font-semibold">{testimonial.name}</h4>
                   <p className="text-gray-400 text-sm">{testimonial.role}</p>
                 </div>
               </div>
@@ -78,7 +80,7 @@ const Testimonials = () => {
           </p>
           <a
             href="#hero"
-            className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-500 hover:to-purple-600 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-purple-500/25"
+            className="inline-flex items-center gap-3 bg-gradient-to-r from-[#40E0D0] to-[#40E0D0] hover:from-[#40E0D0] hover:to-[#40E0D0] text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-[#40E0D0]/25"
           >
             <span>Start Your Project</span>
             <ArrowRight size={16} />

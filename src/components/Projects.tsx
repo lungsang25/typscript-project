@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 
@@ -35,7 +34,7 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Featured <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Projects</span>
+            Featured <span className="bg-gradient-to-r from-[#40E0D0] to-[#40E0D0] bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Here are some of my recent projects that showcase my skills and passion for creating amazing digital experiences.
@@ -46,7 +45,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div 
               key={project.title}
-              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-purple-500/50 transition-all duration-300 group hover:scale-105"
+              className="bg-slate-800/50 backdrop-blur-sm rounded-2xl overflow-hidden border border-slate-700/50 hover:border-[#40E0D0]/50 transition-all duration-300 group hover:scale-105"
             >
               <div className="relative overflow-hidden">
                 <img 
@@ -54,7 +53,7 @@ const Projects = () => {
                   alt={project.title}
                   className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-transparent group-hover:from-[#40E0D0]/80 group-hover:via-[#40E0D0]/50 transition-all duration-500"></div>
               </div>
               
               <div className="p-6">
@@ -65,7 +64,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span 
                       key={tag}
-                      className="px-3 py-1 bg-purple-500/20 text-purple-400 rounded-full text-xs font-semibold"
+                      className="px-3 py-1 bg-[#40E0D0]/20 text-[#40E0D0] rounded-full text-sm"
                     >
                       {tag}
                     </span>
@@ -75,17 +74,21 @@ const Projects = () => {
                 <div className="flex space-x-4">
                   <a 
                     href={project.github}
-                    className="flex items-center space-x-2 text-gray-400 hover:text-white transition-colors duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 text-[#40E0D0] hover:text-white transition-colors"
                   >
-                    <Github size={18} />
-                    <span className="text-sm">Code</span>
+                    <Github size={20} />
+                    <span>Code</span>
                   </a>
                   <a 
                     href={project.live}
-                    className="flex items-center space-x-2 text-gray-400 hover:text-purple-400 transition-colors duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-2 text-[#40E0D0] hover:text-white transition-colors"
                   >
-                    <ExternalLink size={18} />
-                    <span className="text-sm">Live Demo</span>
+                    <ExternalLink size={20} />
+                    <span>Live Demo</span>
                   </a>
                 </div>
               </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Code, Database, Globe, Smartphone } from 'lucide-react';
 
@@ -20,7 +19,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
+            About <span className="bg-gradient-to-r from-[#40E0D0] to-[#40E0D0] bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             I'm a passionate full-stack developer with 4+ years of experience building scalable web applications 
@@ -36,14 +35,14 @@ const About = () => {
                 <div key={skill.name} className="mb-6">
                   <div className="flex items-center justify-between mb-2">
                     <div className="flex items-center space-x-3">
-                      <skill.icon className="text-purple-400" size={20} />
+                      <skill.icon className="text-[#40E0D0]" size={20} />
                       <span className="text-gray-300 font-semibold">{skill.name}</span>
                     </div>
-                    <span className="text-purple-400 font-bold">{skill.level}%</span>
+                    <span className="text-[#40E0D0] font-bold">{skill.level}%</span>
                   </div>
                   <div className="w-full bg-slate-600 rounded-full h-2">
                     <div 
-                      className="bg-gradient-to-r from-purple-500 to-pink-500 h-2 rounded-full transition-all duration-1000 ease-out"
+                      className="bg-gradient-to-r from-[#40E0D0] to-[#40E0D0] h-2 rounded-full transition-all duration-1000 ease-out"
                       style={{ width: `${skill.level}%` }}
                     ></div>
                   </div>
@@ -59,7 +58,7 @@ const About = () => {
                 {technologies.map((tech, index) => (
                   <div 
                     key={tech}
-                    className="bg-slate-600/50 rounded-lg p-3 text-center text-gray-300 hover:bg-purple-500/20 hover:text-purple-400 transition-all duration-300 cursor-pointer"
+                    className="bg-slate-600/50 rounded-lg p-3 text-center text-gray-300 hover:bg-[#40E0D0]/20 hover:text-[#40E0D0] transition-all duration-300 cursor-pointer"
                   >
                     <span className="text-sm font-semibold">{tech}</span>
                   </div>
