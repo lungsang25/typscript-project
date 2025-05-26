@@ -11,8 +11,8 @@ const About = () => {
   ];
 
   const technologies = [
-    'Javascript', 'Python', 'TypeScript', 'Django', 'Node.js','PostgreSQL', 'MongoDB',
-    'AWS', 'Docker', 'render', 'vercel', 'GraphQL'
+    'Javascript', 'Python', 'Django', 'React', 'Node.js','PostgreSQL', 'MongoDB',
+    'AWS', 'Docker', 'render', 'vercel', 'Transifex'
   ];
 
   return (
