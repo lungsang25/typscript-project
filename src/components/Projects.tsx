@@ -4,27 +4,27 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Tibet417.com',
       description: 'A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, payment processing, and admin dashboard.',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      live: '#'
+      tags: ['Javascript', 'React', 'Node.js', 'MongoDB', 'Stripe', 'Vercel'],
+      github: 'https://github.com/lungsang25/tibet417-backend',
+      live: 'https://tibet417.com'
     },
     {
       title: 'Pecha.ai',
-      description: 'A collaborative project management tool built with Next.js and PostgreSQL. Real-time updates, team collaboration, and advanced filtering.',
+      description: 'A digital platform that makes Buddhist scriptures accessible and searchable across multiple languages, serving scholars and practitioners with modern web technologies and educational tools.',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop',
       tags: ['Javascript', 'React', 'Python', 'Django', 'PostgreSQL', 'MongoDB', 'Google Cloud', 'Docker', 'render'],
       github: 'https://github.com/OpenPecha/Pecha.org',
       live: 'https://pecha.ai/texts'
     },
     {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media management with real-time data visualization and automated reporting features.',
+      title: 'Tenzin chatbot',
+      description: 'An ongoing chatbot project using Hugging Face models and React, aspiring to become a Tibetan-language AI assistant bridging modern AI with Tibetan linguistic needs.',
       image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop',
-      tags: ['Vue.js', 'Python', 'Chart.js', 'AWS'],
-      github: '#',
+      tags: ['Typescript', 'React', 'Hugging Face', 'Rest API', 'DialoGPT model', 'Vercel'],
+      github: 'https://github.com/lungsang25/tenzin-ai',
       live: '#'
     }
   ];
